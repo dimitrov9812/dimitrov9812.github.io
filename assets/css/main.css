@@ -1742,7 +1742,6 @@ input, select, textarea {
 		position: relative;
 		text-decoration: none;
 	}
-
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
@@ -1875,6 +1874,12 @@ input, select, textarea {
 			}
 
 		}
+		
+	.about-me{
+		background-image: url(/images/aboutme.png);
+		background-size: 3vw;
+		background-repeat: no-repeat;
+	}	
 
 /* Wrapper */
 
@@ -2197,4 +2202,18 @@ input, select, textarea {
 		.projectsHeading{
 			padding-bottom: 4%;
 			text-align: center;
+		}
+
+		#bold{
+			font-style: bold;
+		}
+		#contacts-div{
+			display:flex;
+			flex-direction: row;
+			flex-wrap:nowrap
+		}
+		#link-icon{
+			margin: 1%;
+			color: rgb(0, 110, 255);
+			text-decoration: none;
 		}
