@@ -2213,7 +2213,32 @@ input, select, textarea {
 			flex-wrap:nowrap
 		}
 		#link-icon{
-			margin: 1%;
-			color: rgb(0, 110, 255);
+			margin-right: 2%;
+			color: darkgray;
 			text-decoration: none;
 		}
+		.stack{
+			width:6vh;
+			transition: all .2s ease-in-out;
+		}
+		.stack:hover,.stack-indesign:hover{
+			transform: scale(1.1);
+		}
+		.stack-indesign{
+			transition: all .2s ease-in-out;
+			width: 9.5vh;
+		}
+		.project-effect{
+			transition: all .2s ease-in-out;
+		}
+		.project-effect:hover{
+			transform: scale(1.1);
+		}
+	.tech-wrap, .left,.right{
+		display:flex;
+		flex-direction: row;
+	}
+	.left,.right{
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
