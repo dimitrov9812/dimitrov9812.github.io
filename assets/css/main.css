@@ -1568,7 +1568,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 2em 0;
+			margin: 1em 0 2em 0
 		}
 
 		.image.left {
@@ -2207,6 +2207,23 @@ input, select, textarea {
 		#bold{
 			font-style: bold;
 		}
+		#todoApp{
+			width: 56%;
+		}
+
+		#cf {
+			position:relative;
+			height:100%;
+			width:100%;
+			background-image: url("../../images/me.jpg");
+			background-size: cover;
+			margin:0 auto;
+		  }
+		  #cf:hover {
+			background-image: url("../../images/glitch.png");
+		  }
+
+
 		#contacts-div{
 			display:flex;
 			flex-direction: row;
@@ -2234,7 +2251,7 @@ input, select, textarea {
 		.project-effect:hover{
 			transform: scale(1.1);
 		}
-	.tech-wrap, .left,.right{
+	.tech-wwap, .left,.right{
 		display:flex;
 		flex-direction: row;
 	}
