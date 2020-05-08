@@ -1585,7 +1585,9 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
-
+		.indesicion-image{
+			width: 50vw ;
+		}
 /* Button */
 
 	input[type="button"],
@@ -2209,6 +2211,10 @@ input, select, textarea {
 		}
 		#todoApp{
 			width: 56%;
+		}
+		.indesicion-image{
+			width: 50vw;
+			height: 70%;
 		}
 
 		#cf {
