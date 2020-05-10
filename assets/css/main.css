@@ -2265,3 +2265,11 @@ input, select, textarea {
 		flex-wrap: wrap;
 		justify-content: space-evenly;
 	}
+	a{
+		text-decoration: none;
+		color: gray;
+	}
+	.fa-eye:hover{
+		text-decoration: none;
+		color: lightblue;
+	}
