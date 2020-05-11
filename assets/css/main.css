@@ -2228,6 +2228,13 @@ input, select, textarea {
 		  #cf:hover {
 			background-image: url("../../images/glitch.png");
 		  }
+		  @media screen and (max-width: 1024px){
+			  #cf{
+				  position: relative;
+				  height: 50vh;
+				  width: 100vw;
+			  }
+		  }
 
 
 		#contacts-div{
@@ -2273,3 +2280,4 @@ input, select, textarea {
 		text-decoration: none;
 		color: lightblue;
 	}
+	
