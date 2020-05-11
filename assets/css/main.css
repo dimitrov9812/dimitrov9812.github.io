@@ -2228,13 +2228,20 @@ input, select, textarea {
 		  #cf:hover {
 			background-image: url("../../images/glitch.png");
 		  }
-		  @media screen and (max-width: 1024px){
+		  @media screen and (max-width: 980px){
 			  #cf{
 				  position: relative;
-				  height: 50vh;
+				  height: 100vh;
 				  width: 100vw;
 			  }
 		  }
+		  @media screen and (max-width: 800px){
+			#cf{
+				position: relative;
+				height: 40vh;
+				width: 100vw;
+			}
+		}
 
 
 		#contacts-div{
